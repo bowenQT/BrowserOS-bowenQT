@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   update-top-issues:
-    runs-on: ubuntu-latest
+    runs-on: ubicloud-standard-4-ubuntu-2404
     if: github.repository == 'browseros-ai/BrowserOS'
 
     steps:
